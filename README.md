@@ -47,6 +47,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/xeefei/3x-ui/master/install.sh
 - 可通过此脚本的第【20】选项进行，如下图：
 ![9](./media/9.png)
 
+
 ## 恢复与备份
 - 可以通过VPS管理机器人获取【备份配置】文件，有x-ui.db和config.json两个文件
 - SSH登录服务器找到/etc/x-ui/x-ui.db和/usr/local/x-ui/bin/config.json
