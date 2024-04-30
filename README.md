@@ -26,7 +26,7 @@
   ```
   
 ## 安装 & 升级
-- 全新安装请执行以下脚本：
+- 【全新安装】请执行以下脚本：
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/xeefei/3x-ui/master/install.sh)
 ```
