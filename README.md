@@ -32,6 +32,10 @@ bash <(curl -Ls https://raw.githubusercontent.com/xeefei/3x-ui/master/install.sh
 ```
 - 若要对版本进行升级，可直接通过脚本选择【2】，如下图：
 ![8](./media/8.png)
+![10](./media/10.png)
+- 在要这一步必须要注意：要保留旧设置的话，需要输入【n】
+![11](./media/11.png)
+
 
 ## 安装指定版本
 
@@ -50,8 +54,12 @@ bash <(curl -Ls https://raw.githubusercontent.com/xeefei/3x-ui/master/install.sh
 
 ## 恢复与备份（以Debian系统为例）
 - 可以通过VPS管理机器人获取【备份配置】文件，有x-ui.db和config.json两个文件
+![14](./media/14.png)
 - SSH登录服务器找到/etc/x-ui/x-ui.db和/usr/local/x-ui/bin/config.json
+![12](./media/12.png)
 - 把下载得到的两个文件上传覆盖掉旧文件，重启x-ui面板即可成功
+![13](./media/13.png)
+
 
 ## SSL 认证
 
