@@ -33,7 +33,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/xeefei/3x-ui/master/install.sh
 - 若要对版本进行升级，可直接通过脚本选择【2】，如下图：
 ![8](./media/8.png)
 ![10](./media/10.png)
-- 在要这一步必须要注意：要保留旧设置的话，需要输入【n】
+- 在到这一步必须要注意：要保留旧设置的话，需要输入【n】
 ![11](./media/11.png)
 
 
