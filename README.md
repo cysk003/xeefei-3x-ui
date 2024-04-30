@@ -48,7 +48,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/xeefei/3x-ui/master/install.sh
 ![9](./media/9.png)
 
 
-## 恢复与备份
+## 恢复与备份（以Debian系统为例）
 - 可以通过VPS管理机器人获取【备份配置】文件，有x-ui.db和config.json两个文件
 - SSH登录服务器找到/etc/x-ui/x-ui.db和/usr/local/x-ui/bin/config.json
 - 把下载得到的两个文件上传覆盖掉旧文件，重启x-ui面板即可成功
