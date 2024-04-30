@@ -14,11 +14,24 @@
 
 **如果此项目对你有用，请给一个**:star2:
 
+## 安装之前的准备
+- 请尽量保持系统是最新版
+- Debian系统可用如下命令：
+  ```
+  apt update
+  apt upgrade -y
+  apt dist-upgrade -y
+  apt autoclean
+  apt autoremove -y
+  ```
+  
 ## 安装 & 升级
-
+- 全新安装请执行以下脚本：
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/xeefei/3x-ui/master/install.sh)
 ```
+- 若要对版本进行升级，可直接通过脚本选择【2】，如下图：
+![8](./media/8.png)
 
 ## 安装指定版本
 
@@ -27,6 +40,12 @@ bash <(curl -Ls https://raw.githubusercontent.com/xeefei/3x-ui/master/install.sh
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/xeefei/3x-ui/master/install.sh) v2.3.0.1
 ```
+
+## 安装完成之后请放行指定端口
+- 放行【面板登录端口】
+- 放行出入站管理协议端口
+- 可通过此脚本的第【20】选项进行，如下图：
+![9](./media/9.png)
 
 ## SSL 认证
 
