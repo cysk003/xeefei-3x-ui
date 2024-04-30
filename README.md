@@ -15,7 +15,7 @@
 **如果此项目对你有用，请给一个**:star2:
 
 ## 安装之前的准备
-- 请尽量保持系统是最新版
+- 请尽量更新系统是最新版
 - Debian系统可用如下命令：
   ```
   apt update
@@ -24,6 +24,23 @@
   apt autoclean
   apt autoremove -y
   ```
+- 查看系统当前版本：
+  ```
+  cat /etc/debian_version
+  ```
+- 查看内核版本：
+  ```
+  uname -r
+  ```
+- 列出所有内核：
+  ```
+  dpkg --list | grep linux-image
+  ```
+- 更新完成后执行重新引导：
+  ```
+  update-grub
+  ```
+- 完成以上步骤之后重启系统
   
 ## 安装 & 升级
 - 【全新安装】请执行以下脚本：
