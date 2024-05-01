@@ -89,6 +89,13 @@ bash <(curl -Ls https://raw.githubusercontent.com/xeefei/3x-ui/master/install.sh
 ![13](./media/13.png)
 
 
+## 安装完成后如何设置调整成【中文界面】？
+- 方法1：通过管理后台【登录页面】调整，登录时可以选择，如下图：
+![15](./media/15.png)
+- 方法2：通过在管理后台-->【面板设置】中去选择设置，如下图：
+![16](./media/16.png)
+
+
 ## SSL 认证
 
 <details>
